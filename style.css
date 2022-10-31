@@ -1,0 +1,96 @@
+body {
+	font-size: 12px ;
+	font-family:"Arial" , sans-serif;
+
+
+}
+
+form{
+	margin: 0 auto;
+	width: 350px;
+	padding: 2em;
+	border: 2px solid #000000;
+	border-radius: 1em;
+	text-align: left;
+	background-color: #00FF7F;
+	font-family: Times New Roman ;
+}
+
+.menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:#89EE72;
+	position: none;
+	top: 0;
+	width: 100%;
+	position: fixed;
+}
+.itens{
+	float:right;
+}
+
+.itens a{
+	display: block;
+	color: #000000;
+	text-align: center;
+	padding: 28px 32px ;
+	text-decoration: none;
+	font-size: 22px;
+}
+
+
+h1{
+
+	font: 30px, Arial;
+	text-align: center;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+form li+li{
+	margin-top: 1em;
+}
+
+label{
+	display: inline-block;
+	width: 100px;
+	text-align:right;
+}
+
+textarea{
+	font: 1em Times New Roman;
+	width: 150px;
+	box-sizing: border-box;
+	border: 1px solid #000000;
+	vertical-align: top;
+	height: sem;
+	text-align: center;
+}
+
+.Enviar {
+	width: 150px;
+    padding: 1px 01px;
+    border-radius: 6px;
+    font-size: 12px;
+   	margin: 10px auto;
+}
+
+.button{
+	width: 150px ;
+	background-color: #228B22;
+	height: 30px;
+	cursor: pointer;
+	box-shadow: 10px 5px 5px #9ACD32;	
+}
+
+.button:active{
+	box-shadow: 08px 3px 3px;
+	height: 28px;
+
+}
